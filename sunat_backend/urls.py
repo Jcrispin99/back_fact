@@ -45,6 +45,7 @@ urlpatterns = [
     
     # API v1
     path('api/v1/', include('users.urls')),
+    path('api/v1/', include('companies.urls')),
     
     # DRF Browsable API (para testing)
     path('api-auth/', include('rest_framework.urls')),
